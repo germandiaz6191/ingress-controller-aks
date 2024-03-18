@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /find-me-web
+      - path: /find-me-web/
         pathType: Prefix
         backend:
           service:
